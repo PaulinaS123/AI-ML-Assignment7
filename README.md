@@ -44,7 +44,16 @@ This project fine-tunes a pre-trained DistilBERT model for sentiment analysis on
 
 ---
 
-## Results
+## Why LoRA Saves Computational Resources
+
+LoRA (Low-Rank Adaptation) introduces trainable low-rank matrices into the existing model's weights, allowing fine-tuning with significantly fewer parameters. Instead of updating all the weights of a large pre-trained model, LoRA only trains a small set of low-rank matrices, which drastically reduces:
+
+- **Memory Usage:** Less GPU/CPU RAM needed.
+- **Training Time:** Faster convergence due to fewer parameters.
+- **Storage:** Smaller model checkpoints.
+
+This makes LoRA especially suitable for scenarios with limited computational resources or when quick adaptation to new tasks or datasets is required.
+
 
 ## Inference
 Sample predictions on new texts:

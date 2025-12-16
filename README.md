@@ -46,27 +46,6 @@ This project fine-tunes a pre-trained DistilBERT model for sentiment analysis on
 
 ## Results
 
-### Performance Metrics
-| Metric             | Value                  |
-|--------------------|------------------------|
-| Accuracy           | **X.XX**               |
-| F1-Score          | **X.XX**               |
-| Precision          | **X.XX**               |
-| Recall             | **X.XX**               |
-
-*(Replace placeholders with your actual results)*
-
-### Baseline Comparison
-
-| Model                     | Accuracy | F1-Score |
-|---------------------------|----------|----------|
-| Pre-trained (no fine-tuning) | **X.XX** | **X.XX** |
-| Fine-tuned with LoRA         | **X.XX** | **X.XX** |
-
-*This comparison shows the performance gain achieved via LoRA fine-tuning.*
-
----
-
 ## Inference
 Sample predictions on new texts:
 

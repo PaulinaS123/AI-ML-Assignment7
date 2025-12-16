@@ -100,13 +100,3 @@ Sample predictions on new texts:
 - `scikit-learn`
 - `torch`
 
-*(Include a `requirements.txt` if needed)*
-
----
-
-## License
-*(Add license info if applicable)*
-
----
-
-Would you like me to generate this as a markdown file that you can copy and use directly?
